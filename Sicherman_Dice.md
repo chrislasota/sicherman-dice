@@ -208,3 +208,10 @@ Note that the first case is the just the classic 2d6 pair of dice, where both di
 7. Show that your answer to #1 can be factored as $x(1+x)(1+x^2)(1+x^4)$
 8. Produce _three_ additional possible alternative labeling schemes for a pair of 8-sided dice that will each give the same histogram for sums as the usual 2d8.
 
+### Answers to Homework
+1. Let $~q(x) = x+x^2+x^3+x^4+x^5+x^6+x^7+x^8$.  When $x=1$, then $q(1)=8$, as it should.
+2. Create $[~q(x)~]^2$ and find the coefficient of $x^{10}$ : $$\begin{align}[~q(x)~]^2 &= (x + x^2+x^3+x^4+x^5+x^6+x^7+x^8)\cdot (x+x^2+x^3+x^4+x^5+x^6+x^7+x^8) \\ &= x^2 + 2x^3 + 3x^4 + 4x^5 + 5x^6 + 6x^7 + 7x^8 + 8x^9 + 7x^{10} + 6x^{11} + 5x^{12} + 4x^{13} + 3x^{14} + 2x^{15} + x^{16}\end{align}$$ The coefficient of $x^{10}$ is 7, so there are 7 ways to get a sum of 10 from 2d8.
+3. Let $h(x) = x+x^2+x^3+x^4$  and find the coefficient of $x^7$  in the product $[~h(x)~]^3$ $$\begin{align}[~h(x)~]^3 &= (x+x^2+x^3+x^4)\cdot (x+x^2+x^3+x^4)\cdot (x+x^2+x^3+x^4) \\ &= (x+x^2+x^3+x^4)\cdot (x^2 + 2x^3 + 3x^4 + 4x^5 + 3x^6 + 2x^7 + x^8) \\ &= x^3 + 3x^4 + 6x^5 + 10x^6 + 12x^7 + 12x^8 + 10x^9 + 6x^{10} + 3x^{11} + x^{12}  \end{align}$$The coefficient of $x^7$ is 12, so there are 12 ways to get a sum of 7 from 3d4.
+4. Find the coefficient of $x^9$ in the product $[~x+x^2~]^6$  : $$\begin{align}[~x+x^2~]^6 &= [~x(1+x)~]^6 \\ &= x^6~[1+x]^6 \\ &= x^6~[1 + 6x + 15x^2 + 20x^3 + 15x^4 + 6x^5 + x^6~] \\ &= x^6 + 6x^7 + 15x^8 + 20x^9 + 15x^{10} + 6x^{11} + x^{12} \end{align}$$The coefficient of $x^9$ is 20, so there are 20 ways to get a sum of 9 from 6d2.
+5. A single d10 would be represented as a function we will call $T(x)$ which we factor: $$\begin{align}T(x) &= x + x^2 + x^3 + x^4 + x^5 + x^6 + x^7 +x ^8 +x^9 +x^{10} \\ &= x\cdot(1 + x + x^2 + x^3 + x^4 + x^5 + x^6 + x^7 +x ^8 +x^9) \\ &= x\cdot(1 + x^5)\cdot(1 + x + x^2 + x^3 + x^4)\end{align} $$ When we let $x=1$, then $(1+x^5) = 2$  and  $(1+x+x^2+x^3+x^4) = 5$.
+6. 
