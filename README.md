@@ -1,6 +1,6 @@
 ### Sicherman Dice
 
-Sicherman dice are an alternate labeling of the sides a pair of classic cubical dice such that the number of ways to produce the **sums** of a pair of regular dice is the same.
+Sicherman dice are an alternate labeling of the sides of a pair of classic cubical dice such that the number of ways to produce the **sums** of a pair of regular dice is the same.
 
 Ordinary 6-sided dice have possible sums of **2** through **11**, and the number of ways of getting each sum is
 
