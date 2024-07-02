@@ -16,3 +16,9 @@ In 1978, Sicherman came up with the alternate labeling of
 For these dice, the possible sums are also from 2 to 12.  Furthermore, if you tally up the number of ways to get each sum, you find that *you get the exact same table as above*.
 
 How did he do this?
+
+#### NOTE
+The \*.md file might not display correctly in your Markdown reader, as it uses a lot of LaTeX-style equations, both inline and in math environment blocks.  It was created inside of Obsidian v1.6.5
+
+The PDF file is the real document to care about here.
+
